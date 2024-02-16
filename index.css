@@ -1,0 +1,75 @@
+.solway-extrabold {
+  font-family: "Solway", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    background: #023047;
+    width: 400px;
+    padding: 68px 82px;
+}
+
+.score-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.team-title {
+    color: #EEEEEE;
+    font-family: "Solway", serif;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#home-section, #guest-section {
+    text-align: center;
+}
+
+#home-score-number, #guest-score-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px 0px 0px;
+    margin: 21px 0px 26px 0px;
+    width: 155px;
+    height: 108px;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #FB8500;
+    background: #080001;
+    border: 1px solid #FFB703;
+    border-radius: 5px;                         
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    color: #EEEEEE;
+    background: none;
+    border: 2px solid #8ECAE6;
+    border-radius: 5px;
+    padding: 13px 10px 10px 10px;   
+}
+
+.add-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+}
+
+#new-game-btn {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 410px;
+}
